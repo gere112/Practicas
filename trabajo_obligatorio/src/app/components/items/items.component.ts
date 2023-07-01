@@ -11,6 +11,7 @@ export class ItemsComponent implements OnInit {
 
   items: Item[] = [];
 
+
   constructor(){
 
   }
@@ -42,4 +43,9 @@ ngOnInit(): void {
     ]
 
   }
-}
+
+  deleteItem(item:Item){ 
+  this.items = this.items.filter(x => x.id != item.id )
+    }
+ }
+
