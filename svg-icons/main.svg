@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="quimica" viewBox="0 0 42 150">
+        <!-- Código SVG para el símbolo "quimica" -->
+               <svg version="1.1"   >
+         <style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st51{fill:#5CFFEC;}
+	.st52{fill:#6B92ED;}
+	.st53{fill:#A398E7;}
+	.st54{fill:#7F75BD;}
+	.st55{fill:#FF564C;}
+	.st56{fill:#8A81C4;}
+	.st57{fill:#585082;}
+	.st58{fill:#339CEE;}
+	.st59{fill:#CFCFCF;}
+	.st60{fill:#3E314D;}
+	.st61{fill:#CF170E;}
+	.st62{fill:#FFD49B;}
+	.st63{fill:#E0D2C4;}
+	.st64{fill:#E3BD8A;}
+	.st65{fill:#A39287;}
+	.st66{fill:#ffffff;}
+	.st67{fill:#64C2E3;}
+	.st68{fill:#16C4C1;}
+	.st69{fill:#ffffff;}
+	.st70{fill:#6BE0EB;}
+	.st71{fill:#686A6B;}
+	.st72{fill:#34A3C9;}
+	.st73{fill:#7A7C7D;}
+	.st74{fill:#ED3F45;}
+	.st75{fill:#ffffff;}
+	.st76{fill:#D9F1F4;}
+	.st77{fill:#6B5C4E;}
+	.st78{fill:#EBFFFF;}
+	.st79{fill:#9BBECA;}
+	.st80{fill:#564A3E;}
+	.st81{fill:#B8D9E2;}
+	.st82{fill:#645649;}
+	.st83{fill:#424244;}
+	.st84{fill:#766556;}
+	.st85{fill:#353738;}
+	.st86{fill:#2EADFF;}
+	.st87{fill:#259CE8;}
+	.st88{fill:#B9FEFF;}
+	.st89{fill:#7EE6E8;}
+	.st90{fill:#1485CC;}
+	.st91{fill:#97F5F7;}
+	.st92{fill:#f3f3f3;}
+	.st93{fill:#E8DEC5;}
+	.st94{fill:#1DA87B;}
+	.st95{fill:#F0ECE2;}
+	.st96{fill:#34D09C;}
+	.st97{fill:#53F5D1;}
+</style>
+        <g>
+            <path class="st93" d="M41.999,75.001h-42v-54c0-11.6,9.4-21,21-21c5.8,0,11.05,2.35,14.85,6.15c3.8,3.8,6.15,9.05,6.15,14.85
+		V75.001z" />
+            <path class="st94" d="M-0.001,75.001h42v54c0,11.6-9.4,21-21,21s-21-9.4-21-21V75.001z" />
+            <path class="st95" d="M20.999,0.001c-11.6,0-21,9.4-21,21v54h21V0.001z" />
+            <path class="st96" d="M20.999,75.001h-21v54c0,11.6,9.4,21,21,21V75.001z" />
+            <path class="st97"
+                d="M14.999,75.001v52.5c0,1.381-1.119,2.5-2.5,2.5h0c-1.381,0-2.5-1.119-2.5-2.5v-52.5H14.999z" />
+            <path class="st0"
+                d="M9.999,75.001v-52.5c0-1.381,1.119-2.5,2.5-2.5h0c1.381,0,2.5,1.119,2.5,2.5v52.5H9.999z" />
+        </g>
+    </svg>
+    </symbol>
+    <symbol id="otro-svg" viewBox="0 0 42 42">
+        <!-- Código SVG para otro símbolo -->
+    </symbol>
+    <!-- Agrega más símbolos aquí -->
+</svg>

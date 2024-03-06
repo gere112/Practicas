@@ -1,0 +1,161 @@
+body {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  font-family: "Open Sans";
+}
+
+.card {
+  /* tamaño de la card */
+  width: 1000px;
+  height: 135;
+
+
+  border-top-right-radius: 10px;
+  display: flex;
+
+  /* centrar contenido icono    
+    justify-content: center;
+     */
+
+  /* eliminar subrayado al texto */
+  text-decoration: none;
+
+  border: 1px solid #ff000000;
+  /* Puedes personalizar el borde según tus preferencias */
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0);
+  /* Sombra para resaltar la tarjeta */
+  margin: 20px;
+  /* Margen exterior para separar las tarjetas */
+  padding: 10px;
+  /* Espacio interno dentro de la tarjeta */
+}
+
+.education {
+
+  --bg-color: #ffd861;
+  --bg-color-light: #ffeeba;
+  --text-color-hover: #4c5656;
+  --box-shadow-color: rgba(255, 215, 97, 0.48);
+}
+
+.credentialing {
+  --bg-color: #b8f9d3;
+  --bg-color-light: #e2fced;
+  --text-color-hover: #4c5656;
+  --box-shadow-color: rgba(184, 249, 211, 0.48);
+}
+
+.wallet {
+  --bg-color: #ceb2fc;
+  --bg-color-light: #f0e7ff;
+  --text-color-hover: #fff;
+  --box-shadow-color: rgba(206, 178, 252, 0.48);
+}
+
+.human-resources {
+  --bg-color: #dce9ff;
+  --bg-color-light: #f1f7ff;
+  --text-color-hover: #4c5656;
+  --box-shadow-color: rgba(220, 233, 255, 0.48);
+}
+
+/* 
+  .card {
+  width: 1000px;
+    height: 100px;
+    background: #fff;
+    box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+  }
+    */
+
+.card:hover {
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+
+
+
+.card:hover .overlay {
+  transform: translateY(-5px) scale(1.03) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+
+
+
+.card:hover .circle .overlay {
+  border-color: var(--bg-color-light);
+  background: var(--bg-color);
+}
+
+
+.card:hover .circle:after {
+  background: var(--bg-color-light);
+}
+
+
+
+.card:active {
+  transform: scale(1) translateZ(0);
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+    0 15px 24px var(--box-shadow-color);
+}
+
+.card p {
+  font-size: 17px;
+  color: #4c5656;
+  margin-top: 31px;
+  z-index: 1000;
+  transition: color 0.3s ease-out;
+}
+
+.circle {
+  width: 131px;
+  height: 131px;
+  border-radius: 50%;
+  background: #ffffff;
+
+
+  border: 2px solid var(--bg-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+
+}
+
+/* .circle:after {
+    content: "";
+  
+    width: 1143px;
+    height: 151px;
+    position: absolute;
+    background: var(--bg-color);
+    border-radius: 50%;
+    top: 7px;
+    left: 7px;
+    transition: opacity 0.3s ease-out;
+  } */
+
+
+.overlay {
+  width: 1143px;
+  height: 151px;
+  position: absolute;
+  background: #ffffff;
+  transition: transform 0.3s ease-out;
+}
+
+
+.overlay:hover {
+  background: var(--bg-color);
+
+}
